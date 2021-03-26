@@ -1,18 +1,13 @@
-                program membuat_biodata;
-                uses crt;
-                var
-                nama,npm,alamat,ttl,nohp,motto:string;
-                begin
-                clrscr;
-                writeln('Nama : ');
-                readln(nama);
-                writeln('NPM : ');
-                readln(npm);
-                writeln('Tempat, Tanggal, Lahir : ');
-                readln(ttl);
-                writeln('No Hp : ');
-                readln(nohp);
-                writeln('Motto : ');
-                readln(motto);
-                readkey
-                end.
+program boidata;
+uses crt;
+
+begin
+writeln ('Nama   : AMAM NUR AFFANDI              ');
+writeln ('NPM    : 20.14.1.0022                  ');
+writeln ('Alamat : Ds.Pakubeureum Kec.Kertajati  ');
+writeln ('TTL    : BEKASI, 03 Mei 2003           ');
+writeln ('No HP  : 0821 2118 5214                ');
+writeln ('Motto  : Semua akan indah pada waktunya');
+
+readln;
+end.
