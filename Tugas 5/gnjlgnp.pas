@@ -1,0 +1,32 @@
+program gnjlgnp;
+uses crt;
+
+var
+i,a : integer;
+b : string;
+
+function genap(i : integer) : integer;
+begin
+a := i mod 2;
+if a = 0 then
+begin
+b := 'Genap';
+end
+
+else
+begin
+b := 'Ganjil';
+end;
+
+writeln('Bilangan ini adalah bilangan ',b);
+end;
+
+begin
+clrscr;
+write('Masukan bilangan : ');
+readln(i);
+genap(i);
+
+readln;
+
+end.
